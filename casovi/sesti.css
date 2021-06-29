@@ -1,0 +1,19 @@
+.firstdiv{
+    display: inline-block;
+    width: 600px;
+    height: 70px;
+}
+.desnidiv{
+    float:right;
+}
+.velikidiv{
+    display: inline-block;
+    width: 600px;
+    height: 1500px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+body{
+    margin: auto;
+    width: 50%;
+}

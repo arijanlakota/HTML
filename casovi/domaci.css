@@ -1,0 +1,52 @@
+.slika{
+    width: 310;
+    height: 163;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.zadiv{
+    width :310px;
+    height:400px
+    color white;
+    border: #444444 1px solid;
+    border-radius: 7px 7px 0px 0px;
+    margin-bottom: 30px;
+}
+h1{
+    font-weight:600px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:#444444;
+}
+.mala{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left:20px ;
+    float:left;
+}
+.ime{
+    border-top: #444444 1px solid;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.right{
+    display: flex;
+}
+h3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 30px;
+    padding-top: 20px;
+
+}
