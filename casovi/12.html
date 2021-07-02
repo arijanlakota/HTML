@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="12.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -16,15 +20,15 @@
         <div class="drugidiv">
             <form class="drugidiv">
                 <h2>Name</h2>
-                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="text" name="name" placeholder="Enter your name" required class="zainp">
                 <h2>Email</h2>
-                <input type="text" name="email" placeholder="Enter your email" required>
+                <input type="text" name="email" placeholder="Enter your email" required class="zainp">
                 <h2>Age(optional)</h2>
-                <input type="text" name="number" placeholder="age" >
+                <input type="text" name="number" placeholder="age" class="zainp">
                 <label for="description">Witch option describes your current role?</label>
                 <div 
                 style="display:flex;flex-direction:column">
-                <select name="description" >
+                <select name="description" class="zainp"  >
                     <option value="1">Student</option>
                     <option value="2">Full Time Job</option>
                     <option value="3">Full Time Learner</option>
@@ -41,44 +45,45 @@
                 <label for="html" >Not sure</label>
                 <input name="radio" id="html" value="Not Sure" type="radio">
                 <h2>What is your favourite feature of freeCodeCamp</h2>
-                <input type="text" placeholder="Community" >
+                <input type="text" placeholder="Community" class="zainp" >
                 </div>
             
                 <div 
                 style="display:flex;flex-direction:column">
-
-                <input type="checkbox" id="front" name="vehicle1" value="Front-end Projects">
                 <label for="front"> Front-end Projects</label>
-                <input type="checkbox" id="back" name="vehicle1" value="Back-end Projects">
+                <input type="checkbox" id="front" name="vehicle1" value="Front-end Projects">
                 <label for="back"> Back-end Projects</label>
-                <input type="checkbox" id="data" name="vehicle1" value="Data Visualization">
+                <input type="checkbox" id="back" name="vehicle1" value="Back-end Projects">
                 <label for="data"> Data Visualization</label>
-                <input type="checkbox" id="challenge" name="vehicle1" value="Challenges">
+                <input type="checkbox" id="data" name="vehicle1" value="Data Visualization">
                 <label for="challenge"> Challenges</label>
-                <input type="checkbox" id="Open" name="vehicle1" value="Open Source Community">
+                <input type="checkbox" id="challenge" name="vehicle1" value="Challenges">
                 <label for="Open"> Open Source Community</label>
-                <input type="checkbox" id="gitter" name="vehicle1" value="Gitter help rooms">
+                <input type="checkbox" id="Open" name="vehicle1" value="Open Source Community">
                 <label for="gitter"> Gitter help rooms</label>
-                <input type="checkbox" id="videos" name="vehicle1" value="Videos">
+                <input type="checkbox" id="gitter" name="vehicle1" value="Gitter help rooms">
                 <label for="videos">Videos</label>
-                <input type="checkbox" id="City Meetups" name="vehicle1" value="City Meetups">
+ 
+                <input type="checkbox" id="videos" name="vehicle1" value="Videos">
                 <label for="City Meetups">City Meetups</label>
-                <input type="checkbox" id="Wiki" name="vehicle1" value="Wiki">
+                <input type="checkbox" id="City Meetups" name="vehicle1" value="City Meetups">
                 <label for="Wiki">Wiki</label>
-                <input type="checkbox" id="Forum" name="vehicle1" value="Forum">
+                <input type="checkbox" id="Wiki" name="vehicle1" value="Wiki">
                 <label for="Forum">Forum</label>
-                <input type="checkbox" id="Additional" name="vehicle1" value="Additional">
+                <input type="checkbox" id="Forum" name="vehicle1" value="Forum">
                 <label for="Additional">Additional</label>
+                <input type="checkbox" id="Additional" name="vehicle1" value="Additional">
                 </div>
-                <div style="display:flex;flex-direction:column">
+                <div style="display:flex;flex-direction:column;">
                     <h2>Any comments or suggestion</h2>
                     <textarea rows="4" cols="50" placeholder="Enter your coment hear">
-                        Enter your coment hear
+                    Enter your coment hear
 
                     </textarea>
                 </div>
-                <button value="submit">submit</button>
-                
+                <div style="display: flex;justify-content: center;">
+                <button class="submit" value="submit">submit</button>
+                </div>
 
 
             </form>
