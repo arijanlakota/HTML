@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="16.css" rel="stylesheet">
+</head>
+<body>
+    <div class="velikidiv">
+        <div  class="grupa">
+            <div class="minidiv" id="prvi" onclick="myFunc1()">TAB1</div>
+            <div class="minidiv" id="drugi" onclick="myFunc2()">TAB2</div>
+            <div class="minidiv" id="treci" onclick="myFunc3()">TAB3</div>
+        </div>
+        <div class="glavno" id="tab1" >
+            <h1>Tab1</h1>
+        </div>
+        <div class="glavno" id="tab2"  >
+            <h1>Tab2</h1>
+        </div>
+        <div class="glavno" id="tab3" >
+            <h1>Tab3</h1>
+        </div>
+    </div>
+    <script>
+        function myFunc1(){
+            document.getElementById("tab1").classList.add("vid")
+            document.getElementById("tab2").classList.add("none")
+            document.getElementById("tab3").classList.add("none")
+        }
+        function myFunc2(){
+            document.getElementById("tab1").classList.add("none")
+            document.getElementById("tab2").classList.add("vid")
+            document.getElementById("tab3").classList.add("none")
+    
+        }
+        function myFunc3(){
+            document.getElementById("tab3").classList.add("vid")
+            document.getElementById("tab2").classList.add("none")
+            document.getElementById("tab1").classList.add("none")
+        }
+    </script>
+</body>
+</html>

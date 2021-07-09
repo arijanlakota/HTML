@@ -1,0 +1,47 @@
+.velikidiv{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border: 1px solid black;
+}
+.grupa{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.minidiv{
+    border: 1px black solid;
+}
+#prvi{
+    background-color: blue;
+    color: black;
+}
+#drugi{
+    background-color: yellow;
+    color: white;
+}
+#treci{
+    background-color: tomato;
+    color:green
+}
+.glavno{
+    width: 600px;
+    height: 300px;
+    display: none;
+}
+#tab1{
+    background-color: blue;
+    color: black;
+}
+#tab2{
+    background-color: yellow;
+    color: white;
+
+}
+.vid{
+    display: block;
+
+}
+.none{
+    display: none;
+}
