@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="17.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="klasa">
+        <h1 id="1"></h1>
+        <h1 id="2"></h1>
+        <h1 id="3"></h1>
+        <h1 id="4"></h1>
+    </div>
+    <form>
+        <div class="zadiv">
+            <label for="fname">Your Name</label>
+            <input type="text" name="fname" id="fname">
+            <label for="fmail">Your Email</label>
+            <input type="email" name="fmail" id="fmail">
+        </div>
+        <label for="fsub">Subject</label>
+        <input type="text" name="fsub" id="fsub">
+        <label for="mes" id="mes">Message</label>
+        <textarea name="mes" rows="5" cols="50" id="fmes"></textarea>
+        <div class="butdiv">
+            <button value="Sumbmit" type="button" onclick="myFunc()"> Submit</button>
+        </div>
+    </form>
+    <script>
+        function myFunc(){
+            let val1 = document.getElementById("fname").value;
+            let val2 = document.getElementById("fmail").value;
+            let val3 = document.getElementById("fsub").value;
+            let val4 = document.getElementById("fmes").value;
+            document.getElementById("1").innerHTML = "Uneliste ime: "  + val1
+            document.getElementById("2").innerHTML = "Uneliste mail: " + val2
+            document.getElementById("3").innerHTML = "Uneliste subject: " + val3
+            document.getElementById("4").innerHTML = "Uneliste message: " + val4
+        }
+
+    </script>
+</body>
+
+</html>
